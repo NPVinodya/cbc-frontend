@@ -28,8 +28,8 @@ export default function Testing(){
 
         <div className="button-panel">
             <button onClick={()=>{changeName("Students")}}>students</button>
-            <button onClick={()=>{changeName("Teacher")}}>Teacher</button>
-            <button onClick={()=>{changeName("Admin")}}>Admin</button>
+            <button onClick={()=>{changeName("Teachers")}}>Teacher</button>
+            <button onClick={()=>{changeName("Admins")}}>Admin</button>
 
         </div>
         </div>
