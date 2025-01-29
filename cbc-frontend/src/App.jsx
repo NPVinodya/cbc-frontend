@@ -16,8 +16,9 @@ function App() {
     <Routes path = "/*">
     <Route path="/" element={<HomePage/>}/>
     <Route path="/login" element={<LoginPage/>}/>
-    <Route path="/Signup" element={<signinPage.jsx/>}/>
-    <Route path="/*" element={<h1>404 error</h1>}/>
+    <Route path="/Signup" element={<UserData/>}/>
+    <Route path="/admin/*" element={<AdminHomePage/>}/>
+    <Route path="/*" element={<HomePage/>}/>
     </Routes>
     
     </BrowserRouter>
